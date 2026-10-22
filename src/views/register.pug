@@ -1,0 +1,22 @@
+doctype html
+html
+  head
+    title Register
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    .container
+      h1 Register
+      form(method='POST', action='/register')
+        div.form-group
+          label(for='name') Name:
+          input#name.form-control(type='text', placeholder='Enter your name', name='name', required)
+        
+        div.form-group
+          label(for='email') Email:
+          input#email.form-control(type='email', placeholder='name@example.com', name='email', required)
+        
+        div.form-group
+          label(for='password') Password:
+          input#password.form-control(type='password', placeholder='Enter password', name='password', required)
+        
+        button.btn.btn-primary(type='submit') Submit

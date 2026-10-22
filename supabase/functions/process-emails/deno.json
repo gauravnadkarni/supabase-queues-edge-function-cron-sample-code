@@ -1,0 +1,16 @@
+{
+  "imports": {
+    "@supabase/functions-js": "jsr:@supabase/functions-js@^2",
+    "@supabase/server": "npm:@supabase/server@^1",
+    "resendLib": "npm:resend",
+    "supabaseLib": "https://esm.sh/@supabase/supabase-js@2",
+    "deno": "https://deno.land/std/http/server.ts",
+    "supabaseClient": "../_shared/supabase-client.ts",
+    "utils": "../_shared/utils.ts",
+    "types": "../_shared/types.ts",
+    "error": "../_shared/custom-error.ts",
+    "db/": "../_shared/db/",
+    "services/": "../_shared/services/",
+    "templates/": "../_shared/templates/"
+  }
+}
